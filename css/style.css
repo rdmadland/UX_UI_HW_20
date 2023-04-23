@@ -1,4 +1,7 @@
-
+body {
+    background: #F1E9DE; /* fallback color */
+    background: linear-gradient( to bottom, #64C1FF, #64FF82);
+}
 
 
 
@@ -199,6 +202,69 @@ body {
   }
   
 
+
+
+  /*
+==========================================
+footer
+==========================================
+*/
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+    justify-content: center;
+    background-color: white;
+    margin-top: 100px
+    
+    }
+    
+    .footer-left {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-decoration: none;
+    
+    }
+    
+    .footer-left p {
+        text-decoration: none;
+    }
+    
+    .footer-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0% 25%;
+    
+    }
+    
+    
+    .footer-right {
+    justify-content: flex-end;
+    
+    }
+    
+    .linkedin {
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
+    }
+    
+    .footer-divider {
+        width: 2px;
+        height: 40px;
+        margin-right: 15px;
+        margin-left: 15px;
+        border-radius: 2px;
+        background-color: black;
+    }
+    
+    
 
 
   @media (min-width: 576px) {
